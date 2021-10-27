@@ -1029,6 +1029,11 @@ h4 {
     width: 180px;
     height: 320px;
   }
+  .social {
+    display: flex;
+    justify-content: center;
+    margin: 0 1.5em;
+  }
 }
 
 @media (max-width: 400px) {
