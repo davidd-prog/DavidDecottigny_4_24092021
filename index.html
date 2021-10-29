@@ -4,10 +4,89 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>La chouette agence</title>
   </head>
   <body>
-    <a href="ancienne-version">Ancienne version La chouette agence</a>
-    <a href="nouvelle-version/">Nouvelle version La chouette agence</a>
+    <!-- Entête -->
+    <header>
+      <section class="presentation_header">
+        <div class="container_logo">
+          <img
+            class="logo"
+            src="img/la-chouette-agence.webp"
+            alt="logo la chouette agence"
+          />
+        </div>
+        <nav class="choice_menu">
+          <ul class="menu_elements">
+            <li class="menuItems oldSite_item">
+              <a class="menuLink oldSiteLink" href="ancienne-version"
+                >Site de base</a
+              >
+            </li>
+            <li class="menuItems newSite_item">
+              <a class="menuLink newSiteLink" href="nouvelle-version"
+                >Site optimisé</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <!-- Entête -->
+    <main>
+      <!-- Démarche expliquée -->
+      <section class="ObjectiveExplanation">
+        <h1 class="Objective">
+          Explorez les deux versions du site de La chouette agence
+        </h1>
+        <h2 class="ComparisionIntro">
+          Optimisation du site de La chouette agence en terme de performance,
+          accessibilité, bonnes pratiques usuelles et SEO
+        </h2>
+        <p>Résultats pré et post-modifications :</p>
+      </section>
+      <section class="Comparision">
+        <div class="Score">
+          <p class="ScoreText">
+            Score et lien vers la page principale du site d'origine :
+          </p>
+          <div class="Redirection">
+            <a class="SelectionLink Oldlink" href="ancienne-version"
+              >Site de base</a
+            >
+          </div>
+          <img
+            class="ScoreImage"
+            src="img/score_d_origine_accueil.webp"
+            alt="score de base de la page principale"
+          />
+        </div>
+        <div class="Score">
+          <p class="ScoreText">
+            Score et lien vers la page principale du site optimisé:
+          </p>
+          <div class="Redirection">
+            <a class="SelectionLink Newlink" href="nouvelle-version"
+              >Site optimisé</a
+            >
+          </div>
+          <img
+            class="ScoreImage"
+            src="img/score_final_page_principale.webp"
+            alt="score final après optimisation de la page principale"
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="Informations">
+        <p class="InformationsText">
+          Etude réalisée par David Decottigny pour la Chouette agence, agence
+          web basée à Lyon.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

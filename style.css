@@ -1,0 +1,153 @@
+body {
+  margin: auto;
+}
+
+main {
+  background-color: rgba(255, 160, 122, 0.356);
+}
+
+/* l'entête de la page */
+
+.container_logo {
+  margin-left: 5em;
+}
+
+.menuLink,
+.SelectionLink {
+  text-decoration: none;
+  font-family: "helvetica";
+  color: black;
+  font-size: 1.2em;
+  margin-right: 2em;
+  border-radius: 2.1em;
+  padding: 0.5em 1em;
+  background-color: #f3976c;
+  box-shadow: 0px 3px 4px lightgray;
+  transition: all 0.3s ease-in-out;
+}
+
+.menuLink:hover,
+.Oldlink:hover,
+.Newlink:hover {
+  color: white;
+  background-color: #c27956;
+  box-shadow: 3px 3px 5px gray;
+}
+
+.menuItems,
+.Selection,
+.Redirection {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.menuItems:hover,
+.Selection:hover,
+.Redirection:hover {
+  transform: scale(1.1);
+}
+
+.presentation_header {
+  display: flex;
+  background: #f2f2f2;
+  justify-content: space-between;
+  box-shadow: 0px 3px 4px lightgray;
+}
+
+.menu_elements {
+  display: flex;
+  list-style-type: none;
+}
+
+.choice_menu {
+  display: flex;
+  margin: 0.5em 1.5em;
+}
+
+/* Fin de l'entête */
+
+/* l'objet du voyage */
+
+.ObjectiveExplanation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  color: black;
+  padding: 1.5em 10em 0 10em;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  padding: 0 10em;
+}
+
+p {
+  display: block;
+  font-size: 1.3em;
+  padding: 0 8em;
+}
+
+/* Fin de l'explication de l'objet */
+
+/* Comparaison des scores */
+
+.Score {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.ScoreText {
+  display: block;
+  font-size: 1.3em;
+  padding: 0;
+}
+
+.ScoreImage {
+  height: 300px;
+  width: 600px;
+  margin: 1em 3em 3em 4.1em;
+}
+
+.Comparision {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.Redirection {
+  margin: 1em 5em 1em 5em;
+}
+
+.SelectionLink {
+  margin: 3em;
+}
+
+.Informations {
+  display: flex;
+  width: auto;
+  background-color: black;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.InformationsText {
+  font-size: 1.1em;
+  padding-top: 1em;
+  color: white;
+}
